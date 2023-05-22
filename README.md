@@ -40,8 +40,8 @@ Se agrega boton salir para limpiar pantalla y retornar a estados iniciales de la
 
 ## Contribución
 
-- En este proyecto podemos ejemplicar de manera sencilla el consumo de datos de una API otorgada por terceros y asi poder crear
- cualquier tipo de aplicacion necesaria o ejecicio para el aprendizaje y uso de los lenguajes de programacion, en este proyecto simple 
+- En este proyecto podemos ejemplificar de manera sencilla el consumo de datos de una API otorgada por terceros, y asi poder crear
+ cualquier tipo de aplicacion necesaria o ejecicio para el aprendizaje y uso de los lenguajes de programación, en este proyecto simple 
 
 
 ## Licencia
