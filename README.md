@@ -8,9 +8,9 @@ Al listar las cuentas estas son filtradas para mostrar cuentas corrientes y caja
 
 Se realiza consultas de listados de cuentas en botones mas opciones y opciones anteriores para retornal al listado inicial.
 
-Al dar click en cualquiera de las cuentas se puede consulta el estado de las misma obteniendo saldo de cuenta, tipo de cuenta y numero de cuenta.
+Al dar click en cualquiera de las cuentas se puede consultar el estado de las mismas obteniendo saldo de cuenta, tipo de cuenta y numero de cuenta.
 
-Se agrega boton salir para limpiar pantalla y retornanr a estados iniciales de la aplicacio y asi contuar realizando consulta de estos listados
+Se agrega boton salir para limpiar pantalla y retornar a estados iniciales de la aplicacion y asi continuar realizando consultas de estos listados
 
 
 ## Requisitos previos
