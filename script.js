@@ -136,4 +136,14 @@ fetchAccounts();
 
 // Obtener el botón "Salir"
 const salirButton = document.getElementById('salir');
-  
+
+// Función para limpiar la pantalla y recargar la página
+function limpiarPantalla() {
+  // Mostrar contenedor 1 y ocultar contenedor 2
+  const container1 = document.querySelector('.container1');
+  const container2 = document.querySelector('.container2');
+  container1.style.display = 'block';
+  container2.style.display = 'none';
+}
+// Agregar evento clic al botón "Salir"
+salirButton.addEventListener('click', limpiarPantalla);
