@@ -16,7 +16,7 @@ Se agrega boton salir para limpiar pantalla y retornanr a estados iniciales de l
 ## Requisitos previos
 
 - [Requisito 1](https://lucent-kitten-8d43cd.netlify.app) - Se puede ver proyecto directamente desde cualquier navegador web sin
-- instalacion de ningun tipo programa y verlo en cualquier dipositivo.
+ instalacion de ningun tipo programa y verlo en cualquier dipositivo.
 - [Requisito 2](opel777/https---github.com-opel777-Challange-NCR) - Entar a link descrito para descargar archivo y poder abrirlo con algun editor
 - de codigo.
 
