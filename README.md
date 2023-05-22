@@ -21,7 +21,7 @@ Se agrega boton salir para limpiar pantalla y retornanr a estados iniciales de l
 
 ## Instalación
 
-1. Clona el repositorio: `git clone opel777/https---github.com-opel777-Challange-NCR`
+1. Clona el repositorio: `git clone https://github.com/opel777/https---github.com-opel777-Challange-NCR`
 2. Abre Visual Studio Code u otro editor de código.
 3. Abre la carpeta del proyecto en el editor.
 
