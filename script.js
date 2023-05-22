@@ -144,6 +144,9 @@ function limpiarPantalla() {
   const container2 = document.querySelector('.container2');
   container1.style.display = 'block';
   container2.style.display = 'none';
+
+  // Recargar la página
+  location.reload();
 }
 // Agregar evento clic al botón "Salir"
 salirButton.addEventListener('click', limpiarPantalla);
