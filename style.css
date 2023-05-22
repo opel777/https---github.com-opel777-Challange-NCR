@@ -1,19 +1,26 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     padding: 0;
-    font-family: Arial,sans-serif;
-}
-
-header{
-    background-color: #32cd32;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color:#32cd32;
     padding: 10px 0;
-}
-.header-bar{
+  }
+  
+  .header-bar {
     height: 5px;
     background-color: #32cd32;
-}
-
-h2 {
+  }
+  
+  .container1, .container2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  h2 {
     margin-top: 0;
     text-align: center;
   }
@@ -24,8 +31,38 @@ h2 {
     font-weight: bold;
     text-align: center;
   }
-
-
+  
+  #account-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  
+  .account-box {
+    width: 30%;
+    background-color: #32cd32;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .account-box p {
+    margin: 0;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
   button{
     padding: 1%;
     margin: 2%;
@@ -34,8 +71,10 @@ h2 {
     color: #fff;
     border-radius: 5px;
   }
-  
-.pieDePagina{
+  .hidden {
+    display: none;
+  }
+  .pieDePagina{
     height: 4vh;
     background-color: #32cd32;
   }
