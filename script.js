@@ -11,6 +11,7 @@
     const saldo = account.saldo;
     const tipoCuenta = account.tipo_letras;
     const numeroCuenta = account.n;
+    const tipoMoneda = account.moneda;
   
   
     // Mostrar los detalles en pantalla
@@ -21,7 +22,7 @@
     saldoElement.textContent = `Saldo de la Cuenta: ${saldo}`;
   
     const tipoCuentaElement = document.getElementById('tipo-cuenta');
-    tipoCuentaElement.textContent = `Tipo de Cuenta: ${getAccountType(tipoCuenta)}`;
+    tipoCuentaElement.textContent = `Tipo de Cuenta: ${getAccountType(tipoCuenta)} ${getAccountType(tipoMoneda)}`;
   
     const numeroCuentaElement = document.getElementById('numero-cuenta');
     numeroCuentaElement.textContent = `Número de Cuenta: ${getAccountNumber(numeroCuenta)}`;
@@ -42,7 +43,11 @@
       return 'Cuenta corriente';
     } else if (accountType.toUpperCase() === 'CA') {
       return 'Caja de Ahorros';
-    }  
+    } else if (accountType.toUpperCase() === 'U$S') {
+      return 'en Dolares';
+    }  else if (accountType.toUpperCase() === '$') {
+      return 'en Pesos';
+    } 
     
     else {
       return accountType;
@@ -137,9 +142,12 @@
     try {
       const response = await fetch('https://api.npoint.io/97d89162575a9d816661');
       const data = await response.json();
-      const accounts = data.cuentas;
-
-      console.log(accounts)
+      const filteredAccounts = data.cuentas;
+      const  accounts = filteredAccounts.filter(account => {
+        // Aplicar los filtros por tipo de cuenta y tipo de moneda
+        return (account.moneda === 'u$s' || account.moneda === '$');
+      });
+      
       generateAccountBoxes(accounts);
  
    
